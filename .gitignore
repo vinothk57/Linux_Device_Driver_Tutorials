@@ -42,12 +42,14 @@
 *.idb
 *.pdb
 
-# Kernel Module Compile Results
-*.mod*
+# Linux kernel module (kbuild) — build output and intermediates
+*.mod
+*.mod.c
 *.cmd
-.tmp_versions/
 modules.order
-Module.symvers
+*.symvers
+.tmp_versions/
+.cache.mk
 Mkfile.old
 dkms.conf
 
