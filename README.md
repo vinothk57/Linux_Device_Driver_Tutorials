@@ -7,6 +7,7 @@ Loadable kernel module (LKM) examples developed on Ubuntu 24.04. Each numbered f
 | Folder | Topic |
 |--------|-------|
 | [01_hello_world](01_hello_world/) | Minimal module — load, print, unload |
+| [02_gpioctrl](02_gpioctrl/) | GPIO input/output without device tree (embedded boards) |
 
 ## Prerequisites
 
