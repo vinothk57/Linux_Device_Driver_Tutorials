@@ -7,7 +7,9 @@ Loadable kernel module (LKM) examples developed on Ubuntu 24.04. Each numbered f
 | Folder | Topic |
 |--------|-------|
 | [01_hello_world](01_hello_world/) | Minimal module — load, print, unload |
-| [02_gpioctrl](02_gpioctrl/) | GPIO input/output without device tree (embedded boards) |
+| [02_gpioctrl](02_gpioctrl/) | GPIO input/output without device tree |
+| [03_chardev](03_chardev/) | (Un)/Register Char device returning a fixed string during read |
+| [04_chardev](04_chardev/) | Read/Write operations and manual creation of char device |
 
 ## Prerequisites
 
